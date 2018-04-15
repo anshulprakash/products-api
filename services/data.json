@@ -1,0 +1,54 @@
+{
+  "inventory": [
+    {
+      "name": "shirt",
+      "inventory": 12
+    },
+    {
+      "name": "basketball",
+      "inventory": 90
+    },
+    {
+      "name": "hat",
+      "inventory": 20
+    },
+    {
+      "name": "headphones",
+      "inventory": 192
+    },
+    {
+      "name": "pen",
+      "inventory": 600
+    },
+    {
+      "name": "sun glasses",
+      "inventory": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "shirt",
+      "price": 15
+    },
+    {
+      "name": "basketball",
+      "price": 9.99
+    },
+    {
+      "name": "hat",
+      "price": 20
+    },
+    {
+      "name": "headphones",
+      "price": 49
+    },
+    {
+      "name": "pen",
+      "price": 1.99
+    },
+    {
+      "name": "sun glasses",
+      "price": 65
+    }
+  ]
+}
