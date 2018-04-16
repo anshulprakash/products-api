@@ -46,7 +46,7 @@ class Products {
                 body = JSON.parse(body);
               obj.products=body;
               obj=_.each(obj.products,(item)=>{
-                if(!item.key) item.value='N/A'//later will be price
+                if(!item.price) item.price='N/A'
               })
               if (error) callback(err);
               else callback(null, obj);
@@ -61,7 +61,7 @@ class Products {
               if (typeof body === 'string')
                 body = JSON.parse(body);
                 body=_.each(body.inventory,(item)=>{
-                  if(!item.key) item.key='N/A'//later will be inventory
+                  if(!item.inventory) item.inventory='N/A'
                 })
               if (error) callback(err);
               else callback(null, body);
